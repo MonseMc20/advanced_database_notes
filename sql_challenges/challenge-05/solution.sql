@@ -18,5 +18,5 @@ select shape from your_brick_collection;
 
 --Complete the following query to return a list of all the colours that are in both tables:
 select shape from my_brick_collection
-minus
+intersect
 select shape from your_brick_collection;
